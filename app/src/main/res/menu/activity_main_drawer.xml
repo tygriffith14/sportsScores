@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Sports">
+        <menu>
+            <item
+                android:id="@+id/nav_football"
+                android:icon="@drawable/ic_football"
+                android:title="Football" />
+        </menu>
+    </item>
+
+    <item android:title="Favorites"
+        android:id="@+id/favoritesMenu">
+        <menu>
+        </menu>
+    </item>
+    <item android:title="Application Info"
+        android:id="@+id/app_info"
+    />
+
+
+</menu>
